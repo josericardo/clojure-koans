@@ -1,0 +1,23 @@
+equalities
+  =, not=, keyword, symbol
+  == (looser, eg. (== 2.0 2))
+
+list of '()
+  first, rest, count, cons (front), conj, peek, pop
+
+vector or vec []
+  conj, first, last, nth, subvec (slice), count
+
+set or #{}
+  count
+  clojure.set/
+     union, intersection ,difference
+
+hash-map or {}
+  contains?, assoc, dissoc, keys, vals, count, get
+
+functions
+  defn, fn, #( %1 %2...)
+
+conditionals
+  if, not, if-not, case, cond (:else), let, nil?, false?, empty?
