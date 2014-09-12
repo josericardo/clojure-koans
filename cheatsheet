@@ -21,3 +21,20 @@ functions
 
 conditionals
   if, not, if-not, case, cond (:else), let, nil?, false?, empty?
+
+higher order fns
+  map, filter, reduce
+
+runtime polymophism
+  (defn f ([] ..) ([a] ..) ([a & more ..))
+  (defmulti) (defmethod)+
+
+lazy sequences
+  range, take, drop, repeat, inc, identity, iterate
+
+sequence comprehensions
+  (for [x (range 10) :when (odd? x)] (* x x))
+  (for [x () y ()] ... x y)
+
+creating functions
+  partial, comp (compose), inc, dec, complement
