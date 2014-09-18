@@ -38,3 +38,14 @@ sequence comprehensions
 
 creating functions
   partial, comp (compose), inc, dec, complement
+
+refs
+  ref, deref, @, ref-set, dosync, alter
+
+atoms
+  atom, @, do, compare-and-set!, swap!
+
+macros
+  defmacro, macroexpand, ` (quote), ~ (unquote, inside a quote)
+  - they receive a forma as a parameter
+  - the list they return is evaluated
