@@ -49,3 +49,16 @@ macros
   defmacro, macroexpand, ` (quote), ~ (unquote, inside a quote)
   - they receive a forma as a parameter
   - the list they return is evaluated
+
+datatypes
+  defrecord (map? true), deftype, defprotocol, with-out-str
+
+java interop
+  . operator, #(.method %1), (Class/staticMethod params)
+
+partition
+  partition (offset from first item), partition-all
+
+group-by
+  juxt
+
